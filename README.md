@@ -50,7 +50,7 @@ never alters.
 
 ==== INSTRUCTIONS ====
 
-1. Clone this repository.
+1. Fork (or clone) this repository.
 2. Write enough tests in `spec/tests.js` to test the `update_quality()` function in `src/quality.js` by using the briefing above. You can run the tests by opening `RunThis.html` in your browser.
 3. Create a commit with this message: `update_quality is tested` when you're confident that you've tested the `update_quality()` function enough.
 4. With your tests in place, refactor the `update_quality()` function to make it better.
