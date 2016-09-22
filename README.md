@@ -23,7 +23,7 @@ First an introduction to our system:
 
 Pretty simple, right? Well this is where it gets interesting:
 
-  - Once the *sell_in* days is less then zero, *quality* degrades twice as fast
+  - Once the *sell_in* days is less than zero, *quality* degrades twice as fast
 
   - The *quality* of an item is never negative
 
@@ -50,10 +50,10 @@ never alters.
 
 ==== INSTRUCTIONS ====
 
-1. Clone this repository.
-2. Write enough tests in `spec/write-tests-here.js` to test the `update_quality()` in `src/quality.js` by using the briefing above. You can run the tests by opening `RunThis.html` in your browser.
+1. Fork (or clone) this repository.
+2. Write enough tests in `spec/tests.js` to test the `update_quality()` function in `src/quality.js` by using the briefing above. You can run the tests by opening `RunThis.html` in your browser.
 3. Create a commit with this message: `update_quality is tested` when you're confident that you've tested the `update_quality()` function enough.
-4. With your tests in place, refactor the `update_quality()` function to make it better.
+4. With your tests in place, refactor the `update_quality()` function to structure it better.
 5. Create a commit with this message: `update_quality is refactored` when you're confident that you've refactored the `update_quality()` function enough.
 6. Write the code required in `update_quality` to add support for the "Conjured" items.
 7. Create a commit with this message: `conjured support has been added` when you're confident that your new code did not break anything.
