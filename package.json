@@ -11,7 +11,12 @@
     "karma-phantomjs-launcher": "^1.0.2"
   },
   "devDependencies": {
-    "karma-jasmine": "^1.0.2"
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.6.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
   },
   "scripts": {
     "test": "node_modules/.bin/karma start"
